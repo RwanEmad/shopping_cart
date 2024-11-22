@@ -1,0 +1,87 @@
+body{
+    background-color: #f8f8f8;
+
+}
+
+nav{
+    /* background-color: aqua; */
+    background-color: transparent;
+    .nav-link{
+        color: #000;
+        font-family: "Parkinsans", sans-serif;
+
+        i{
+            font-size: 1.2rem;
+        }
+    }
+    .nav-link:hover{
+        color: #ff5722;
+    }
+    .navbar-nav .nav-link.active{
+        color: #ff5722;
+
+    }
+}
+
+#Home{
+
+    .line{
+        height: 2px;
+    }
+    .pro-card .image{
+  
+    }
+    .pro-card .image img{
+        width: 150px;
+        height: 155px;
+    }
+    .pro-card .pro-name,.pro-card .pro-quantity,.pro-card .pro-price,.pro-card .pro-total,.total{
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .pro-card .price,.card .icon{
+        font-size: 14px;
+    }
+    button{
+        background-color: #FF5722;
+    }
+    .order-sum{
+        height: 450px;
+        right: 30px;
+    }
+    .cost{
+        font-size: larger;
+    }
+    button:hover{
+        background-color: #ff7e56;
+    }
+}
+
+    font-family: "Parkinsans", sans-serif;
+    
+    .pro-card .image img{
+        transition: all 1s;
+    }
+    
+    .pro-card .card .image{
+        overflow: hidden;
+    }
+
+    .pro-card:hover.pro-card .image img{
+        scale: 1.1;
+    }
+
+    .pro-card .pro-name{
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .pro-card .price,.card .icon{
+        font-size: 14px;
+    }
+    button{
+        background-color: #FF5722;
+    }
+    
+} */

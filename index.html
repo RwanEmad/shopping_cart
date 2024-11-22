@@ -1,0 +1,144 @@
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+</html>
+<body>
+
+  <div class="">
+    <section id="Home" class="vh-100 mt-5 ">
+      <div class="container ">
+        <div class="row position-relative">
+          <!----------- product list --------->
+          <div class="col-md-8  ">
+            <div class="title ">
+            <h2>YOUR SSHOPPING CART</h2>
+            </div>
+            <div class="line w-100 bg-black"></div>
+            <div id="products" class="container ">
+
+              <!-- ---------------------------------------------------------- -->
+              <!-- DEFAULT PRODUCT FOR TEST -->
+              <div class="pro-card">
+                <div class="row mt-5">
+                  <!-- PRODUCT IMAGE & NAME -->
+                  <div class="col-md-6">
+                    <div class="row">
+                      <!------- IMAGE --------->
+                      <div class="col-md-5">
+                      <div class="image border border-2 ">
+                        <img src="images/product-01.jpg" alt="" class="100%">
+                      </div>
+                      </div>
+                      <!-------- NAME -------->
+                      <div class="col-md-7 d-grid align-content-center">
+                        <p  class="pro-name ">Esprit Ruffle Shirt</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <!-- PRODUCT DATA -->
+                  <div class="col-md-6 d-grid align-content-center">
+                    <div class="row">
+                      <!------- QUANTITY ------>
+                    <div class="col-md-4 d-grid justify-content-center">
+                      <p class="pro-quantity ps-1 ">QUANTITY</p>
+                      <div class="d-flex align-items-center ">
+                        <div class="icon pe-2">
+                        <button class=" border-0 rounded-circle py-1 text-white"><i class="fa-solid fa-minus"></i> </button> 
+                        </div>
+                        
+                        <p class="price mb-0">15</p>
+                      
+                        <div class="icon px-2">
+                        <button onclick="increaseQuantity()" class=" border-0 rounded-circle py-1 text-white"><i class="fa-solid fa-plus"></i> </button> 
+                        </div>
+                  
+                      </div>
+                    </div>
+                      <!------- PRICE/ITEM ------->
+                    <div class="col-md-4 d-grid justify-content-center">
+                      <p class="pro-price ">PRICE</p>
+                    
+                      <p class="price mb-0 text-center">$524</p>
+          
+                    </div>
+                      <!------ TOTAL PRICE FOR THIS PRODUCT QUANTITY ------->
+                    <div class="col-md-4 d-grid justify-content-center">
+                      <p class="pro-total ">TOTAL</p>
+                      <p class="price mb-0 text-center">$487</p>
+                      </div>
+                    </div>
+                  </div>              
+                </div>
+              </div>
+              <!-- ---------------------------------------------- -->
+              
+            </div>
+          </div>
+           <!-- ORDER SUMMERY -->
+          <div class="col-md-4 order-sum px-4  bg-body-secondary rounded-1 position-fixed ">
+            <div class="title ">
+              <h2 class="text-center">ORDER SUMMERY</h2>
+            </div>
+            <div class="line w-100 bg-black">
+            </div>
+            <div class="d-flex flex-column justify-content-between  py-5 h-100">
+              <div class="content">
+                <div class="row d-flex justify-content-between ">
+                  <div class="col-md-6 ">
+                    <p class="total">Items Total Price</p>
+                    <p class="total">Delivery Charge</p>
+                  </div>
+                  <div class="col-md-6  text-end ">
+                    <p id="ItemstotalPrice" class="ItemstotalPrice">$205.000</p>
+                    <p >FREE</p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="line w-100 bg-black">
+              </div>
+              <div class="content ">
+                <div class="row">
+                  <div class="col-md-6 ">
+                    <p class="total">Total</p>
+                  </div>
+                  <div class="col-md-6 text-end">
+                    <p id="totalPrice" class="cost totalPrice fw-bold">$205.000</p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="mb-5">
+                 <button class=" border-0 p-2 rounded-1 w-100 mb-4 text-white">Proceed to Checkout</button>
+                 <button class=" border-0 p-2 rounded-1 w-100 text-white">Continue Shopping</button>
+              </div>
+             
+            </div>
+        
+          </div>
+
+
+        </div>
+       
+       
+      </div>
+
+    </section> 
+
+    
+  </div>
+    
+
+
+  
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
